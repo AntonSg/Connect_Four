@@ -177,7 +177,7 @@ class Game (FPlayer: Player, SPlayer: Player, NumberOfGames: Int, rows: Int, col
                                         drawFlag++
                                     }
                                 }
-                                if(drawFlag == columns.toString().toInt()) {
+                                if (drawFlag == columns.toString().toInt()) {
                                     println("It is a draw")
                                     FirstPlayer.score += 1
                                     SecondPlayer.score += 1
