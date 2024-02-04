@@ -77,7 +77,7 @@ class Player(val name: String) {
 }
 
 class Game (FPlayer: Player, SPlayer: Player, NumberOfGames: Int, rows: Int, columns: Int) {
-    val FirstPlayer= FPlayer
+    val FirstPlayer = FPlayer
     val SecondPlayer = SPlayer
     val NGames = NumberOfGames
     val rows = rows
